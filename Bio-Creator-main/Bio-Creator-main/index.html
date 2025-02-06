@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/signup.css">
+  <title>Sign Up</title>
+</head>
+<body>
+  <div class="container">
+      <h1>Bio Creator</h1>
+      <form id="form" class="form" action="/register" method="POST">
+      <h2>Register with Us</h2>
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter username">
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter email">
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label for="phno">Phone No.</label>
+        <input type="tel" id="phno" name="phno" placeholder="Enter Phone No">
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" placeholder="Enter Location">
+        <small>Error Message</small>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="/signup.js"></script>
+</body>
+</html>
